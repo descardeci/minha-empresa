@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MINHA EMPRESA</title>
     <link rel="stylesheet" href="reset.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -59,6 +62,51 @@
             <a href="#"><img src="fotos/Usuário.svg" alt="Meu perfil" class="container_imagem"></a>
         </div>
         </header>
+
+        <section class="banner">
+            <img src="logo" alt="Logo" class="banner-foto">
+            <h2 class="banner-titulo">A melhor de toda a região!</h2>
+            <p class="banner-texto">Estamos localizados na Rua dos Paralelepipedos 500, atendemos das 18h ás 23h</p>
+            <input type="search" class="banner-pesquisa" placeholder="O que procura?"/>
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel-titulo">
+                Meus produtos:
+            </h2>
+
+          <div class="swiper">
+              <div class="swiper-wrapper">
+                 
+                  <div class="swiper-slide"><img src="fotos/foto 1.png" alt="Lanches"/></div>
+                  <div class="swiper-slide"><img src="fotos/foto 2.png" alt="Batata Frita"/></div>
+                  <div class="swiper-slide"><img src="fotos/foto 3.png" alt="Calabresa"/></div>
+                  <div class="swiper-slide"><img src="fotos/foto 4.png" alt="Bebidas"/></div>
+                  <div class="swiper-slide"><img src="fotos/foto 5.png" alt="Drinks"/></div>
+                  <div class="swiper-slide"><img src="fotos/foto 6.png" alt="Vegertariano"/> </div>
+                  <div class="swiper-slide"><img src="fotos/foto 7.png" alt="Delivery"/> </div>
+                </div>
+        
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>     
+            </div>
+
+        </section>
+
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+          const swiper = new Swiper(".swiper", {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+              el: ".swiper-pagination",
+              type: "bullets",
+            },
+          });
+        </script>
 
    
 </body>

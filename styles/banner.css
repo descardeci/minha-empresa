@@ -1,0 +1,36 @@
+.banner {
+    background: var(--cor-de-fundo);
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+  }
+
+
+  .banner-titulo {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .banner-texto {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 1em 0;
+    color: rgb(2, 2, 2);
+  }
+
+  .banner-pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    width:70vw
+  }
+
+.banner-foto{
+  width: 30vw;
+  padding: 2em;
+}

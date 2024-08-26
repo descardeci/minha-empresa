@@ -1,8 +1,9 @@
 @import url("styles/header.css");
-
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
 
 :root{
-    --cor-de-funfo: rgb(,115, 0);
+    --cor-de-fundo: rgb(,115, 0);
     --cor-do-cabecalho: rgb(255, 153, 0);
     --cor-do-menu:rgb(31, 28, 28);
 }
