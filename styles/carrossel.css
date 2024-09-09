@@ -1,9 +1,9 @@
 .carrossel{
-    background-color: rgba(242, 172, 172, 0.952);
+    background-color: rgba(0, 0, 0, 0.952);
   }
   .carrossel-titulo {
-      color: rgb(164, 13, 13);
-      background-color: rgba(242, 172, 172, 0.952);
+      color: rgb(0, 0, 0);
+      background-color: rgba(119, 118, 118, 0.952);
       text-align: center;
       text-transform: uppercase;
       font-size: 28px;
