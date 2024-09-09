@@ -3,8 +3,8 @@
 @import url("styles/carrossel.css");
 
 :root{
-    --cor-de-fundo: rgb(19, 15, 15);
+    --cor-de-fundo: rgb(221, 245, 8);
     --cor-do-cabecalho: rgb(14, 13, 13);
-    --cor-do-menu:#f8e42e;
+    --cor-do-menu:#525250da;
 }
 body{background-color: var(--cor-de-fundo);}
