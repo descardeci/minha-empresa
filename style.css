@@ -4,7 +4,7 @@
 
 :root{
     --cor-de-fundo: rgb(19, 15, 15);
-    --cor-do-cabecalho: rgb(255, 153, 0);
+    --cor-do-cabecalho: rgb(14, 13, 13);
     --cor-do-menu:#f8e42e;
 }
 body{background-color: var(--cor-de-fundo);}
