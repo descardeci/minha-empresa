@@ -12,6 +12,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    position: relative;
 }
 .container{
     display: flex;
@@ -21,3 +22,32 @@
 .container_imagem{
     padding: 1em;
 }
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 30vw;
+}
+
+.container_botao:checked ~ .lista-menu {
+    display: block;
+    }
+
+.lista-menu-titulo,
+.lista-menu-item {
+    padding: 1em;
+    background-color:var(--cor-do-menu);
+    }
+    
+.lista-menu-titulo {
+        color: white;}
+    
+.lista-menu-link {
+            background: white;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-transform: uppercase;
+            }    
+    
